@@ -4,4 +4,4 @@ function imprimirEdad(n, e) {
     console.log(`${n} tiene ${e} año`)
 }
 
-ImprimirEdad(nombre, edad)
+ImprimirEdad(nombre, edad) 
