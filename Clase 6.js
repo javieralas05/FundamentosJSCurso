@@ -1,9 +1,9 @@
-var javier= {
+var javier = {
     nombre: 'Javier',
     edad: 27
 }
 
-var rodrigo= {
+var rodrigo = {
     nombre: 'Rodrigo',
     edad: 27
 }
