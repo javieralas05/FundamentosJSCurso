@@ -9,7 +9,8 @@ var rodrigo = {
 }
 
 function imprimirNombreEnMayusculas({ nombre }) {
-    console.log(nombre.toUpperCase())
+    console.log(
+        nombre.toUpperCase())
    }
    
    imprimirNombreEnMayusculas(javier)
