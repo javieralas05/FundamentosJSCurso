@@ -1,5 +1,5 @@
 var javier = {
-    nombre: 'Javier',
+    nombre: 'Ravier',
     edad: 27
 }
 
@@ -8,10 +8,9 @@ var rodrigo = {
     edad: 27
 }
 
-function imprimirNombreEnMayusculas(persona) {
-    var nombre = persona.nombre.toUpperCase()
-    console.log(nombre)
-   };
+function imprimirNombreEnMayusculas({ nombre }) {
+    console.log(nombre.toUpperCase())
+   }
    
    imprimirNombreEnMayusculas(javier)
    imprimirNombreEnMayusculas(rodrigo) 
